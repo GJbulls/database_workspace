@@ -491,7 +491,7 @@ FROM dual;
 
 
 
-
+SELECT* FROM employees;
 
 
 
