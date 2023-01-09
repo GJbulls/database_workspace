@@ -64,7 +64,7 @@ VALUES('한글');
 SELECT substr('oracle test',1,4)     /*substring(start, end)*/
 FROM dual;
 
-SELECT substr('oracle test',-3,4)
+SELECT substr('oracle test',-3,2)
 FROM dual;
 
 SELECT substr('오라클 테스드',3,4)
@@ -486,12 +486,13 @@ ORDER BY department_id;
      indexof("e")          instr(first_name,'e')
      charAt(3)             chr(first_name,3)
      */
-SELECT instr('koreae','e',2,2)
+SELECT instr('koreae','o',1,)
 FROM dual;
 
 
 
 SELECT* FROM employees;
+
 
 
 
